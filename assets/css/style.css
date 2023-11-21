@@ -154,13 +154,15 @@ li {
 }
 
 .nav__3 {
+    z-index: 99999;
+    position: relative;
     width: 100%;
     min-height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    padding: 10px;
+    padding: 20px;
 }
 .nav__item {
     max-width: 1000px;
