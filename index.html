@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <title>Tiệm cái nồi</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- link font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ///// -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- wrapper -->
+    <div class="wrapper">
+        <!-- wrapper -->
+        <nav class="nav">
+            <div class="nav__1">
+                <marquee width="100%" behavior="scroll">
+                    <span><i class="fa-solid fa-bolt"></i></span>
+                    <span style="margin-right: 110px;">SPECIAL OFFER: ENJOY SPECIAL GIFTS FROM THE STORE</span>
+                    <span><i class="fa-solid fa-bolt"></i></span>
+                    <span style="margin-right: 110px;">SPECIAL OFFER: ENJOY SPECIAL GIFTS FROM THE STORE</span>
+                    <span><i class="fa-solid fa-bolt"></i></span>
+                    <span style="margin-right: 110px;">SPECIAL OFFER: ENJOY SPECIAL GIFTS FROM THE STORE</span>
+                </marquee>
+            </div>
+            <div class="nav__2">
+                <div class="container">
+                    <div class="styled-logo">
+                        <a href="#" class="mobile-nav-ico" onclick="toggleMenu()"></a>
+                        <img class="img-logo" src="/assets/images/logo.png" alt="logo" />
+                    </div>
+                </div>
+            </div>
+            <div class="menu-mobile" id="mobileMenu">
+                <a href="/">Home</a>
+                <a class="mobile-link" data-target="about-section">About US</a>
+                <a class="mobile-link" data-target="objectives-section">Careers</a>
+                <a class="mobile-link" data-target="hours-section">Contact</a>
+            </div>
+            <div class="nav__3 desktop__nav">
+                <div class="container">
+                    <div class="nav__3__list">
+                        <ul class="nav__item">
+                            <li>
+                                <a class="nav__link" href="/">HOME</a>
+                            </li>
+                            <li>
+                                <a class="nav__link" href="/">ABOUT US</a>
+                            </li>
+                            <li>
+                                <a class="nav__link" href="/">CAREERS</a>
+                            </li>
+                            <li>
+                                <a class="nav__link" href="/">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- nav-3 mobile -->
+            <div class="nav-mobile">
+                <div class="container">
+                    <ul class="nav-mobile-list">
+                        <li>
+                            <a class="nav-mobile-link" href="/">NEW IN</a>
+                        </li>
+                        <li>
+                            <a class="nav-mobile-link" href="/">TREND</a>
+                        </li>
+                        <li>
+                            <a class="nav-mobile-link" href="/">COLLECTIONS</a>
+                        </li>
+                        <li>
+                            <a class="nav-mobile-link" href="/">LOOKBOOK</a>
+                        </li>
+                        <li>
+                            <a class="nav-mobile-link" href="/">DEMO</a>
+                        </li>
+                        <li>
+                            <a class="nav-mobile-link" href="/">SHOP INSTAGRAM</a>
+                        </li>
+                        <li>
+                            <a class="nav-mobile-link" href="/">BLOG</a>
+                        </li>
+                        <li>
+                            <a class="nav-mobile-link" href="/">BRANDS</a>
+                        </li>
+                        <li>
+                            <a class="nav-mobile-link" href="/">FAQS</a>
+                        </li>
+                    </ul>
+                    <div class="nav__mobile-btn">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times"
+                            class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 352 512">
+                            <path fill="currentColor"
+                                d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <!-- nav-3 mobile -->
+        </nav>
+        <header class="header">
+            <div>
+                <div class="banner">
+                    <img src="./assets/images/panne.png" alt="banner" />
+                </div>
+                <div class="container">
+                    <div class="shop__now">
+                        <h4 class="cosmopolis">COOKING POT</h4>
+                        <span class="underlined"></span>
+                        <div class="header-text">
+                            <p>Come to our store to receive many incentives and attractive gifts</p>
+                            <p>welcome to Tiệm Cái Nồi</p>
+                        </div>
+                        <button class="header__btn__shopnow">SHOP NOW</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="section">
+                <div class="container">
+                    <div class="section__new__arrivals">
+                        <div class="brick__left"></div>
+                        <h4 class="section__text">COLLECTIONS</h4>
+                        <div class="brick__right"></div>
+                    </div>
+                    <div class="cards">
+                        <div class="card-list">
+                            <div class="cards-item">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="./assets/images/product1.jpg" alt="arrivals-images">
+                                        <div class="add__to__cart">
+                                            <div class="card__add__to__cart">
+                                                <button>Thêm vào giỏ hàng</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-detail">
+                                        <div class="card__add__to__cart">
+                                            <button>Chi tiết</button>
+                                        </div>
+                                    </div>
+                                    <div class="detail">
+                                        <h4 class="card-name">Bộ 3 nồi inox</h4>
+                                        <p class="card-describe">Bộ 3 nồi inox 5 đáy nấp kính Kang</p>
+                                        <p class="card-price">2.410.000VND</p>
+                                    </div>
+                                    <!-- <div class="card-icon-heart">
+                                        <img class="styled-imgheart" src="./assets/images/svg/heart.svg">
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="cards-item">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="./assets/images/product2.jpg" alt="arrivals-images">
+                                        <div class="add__to__cart">
+                                            <div class="card__add__to__cart">
+                                                <button>Thêm vào giỏ hàng</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-detail">
+                                        <div class="card__add__to__cart">
+                                            <button>Chi tiết</button>
+                                        </div>
+                                    </div>
+                                    <div class="detail">
+                                        <h4 class="card-name">Tomorrow</h4>
+                                        <p class="card-describe">Naminos Dementus A Milance - Pattern </p>
+                                        <p class="card-price">$86.00 - $99.00</p>
+                                    </div>
+                                    <!-- <div class="card-icon-heart">
+                                        <img class="styled-imgheart" src="./assets/images/svg/heart.svg">
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="cards-item">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="./assets/images/product3.jpg" alt="arrivals-images">
+                                        <div class="add__to__cart">
+                                            <div class="card__add__to__cart">
+                                                <button>Thêm vào giỏ hàng</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-detail">
+                                        <div class="card__add__to__cart">
+                                            <button>Chi tiết</button>
+                                        </div>
+                                    </div>
+                                    <div class="detail">
+                                        <h4 class="card-name">Tomorrow</h4>
+                                        <p class="card-describe">Naminos Dementus A Milance - Pattern </p>
+                                        <p class="card-price">$86.00 - $99.00</p>
+                                    </div>
+                                    <!-- <div class="card-icon-heart">
+                                        <img class="styled-imgheart" src="./assets/images/svg/heart.svg">
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="cards-item">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="./assets/images/product4.jpg" alt="arrivals-images">
+                                        <div class="add__to__cart">
+                                            <div class="card__add__to__cart">
+                                                <button>ADD TO CART</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-detail">
+                                            <div class="card__add__to__cart">
+                                                <button>Chi tiết</button>
+                                            </div>
+                                        </div>
+                                    <div class="detail">
+                                        <h4 class="card-name">Tomorrow</h4>
+                                        <p class="card-describe">Naminos Dementus A Milance - Pattern </p>
+                                        <p class="card-price">$86.00 - $99.00</p>
+                                    </div>
+                                    <!-- <div class="card-icon-heart">
+                                        <img class="styled-imgheart" src="./assets/images/svg/heart.svg">
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="cards-item">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="./assets/images/product5.jpg" alt="arrivals-images">
+                                        <div class="add__to__cart">
+                                            <div class="card__add__to__cart">
+                                                <button>Thêm vào giỏ hàng</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-detail">
+                                            <div class="card__add__to__cart">
+                                                <button>Chi tiết</button>
+                                            </div>
+                                        </div>
+                                    <div class="detail">
+                                        <h4 class="card-name">2.410.000VND</h4>
+                                        <p class="card-describe">Naminos Dementus A Milance - Pattern </p>
+                                        <p class="card-price">$86.00 - $99.00</p>
+                                    </div>
+                                    <!-- <div class="card-icon-heart">
+                                        <img class="styled-imgheart" src="./assets/images/svg/heart.svg">
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="cards-item">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="./assets/images/product6.jpg" alt="arrivals-images">
+                                        <div class="add__to__cart">
+                                            <div class="card__add__to__cart">
+                                                <button>Thêm vào giỏ hàng</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-detail">
+                                            <div class="card__add__to__cart">
+                                                <button>Chi tiết</button>
+                                            </div>
+                                        </div>
+                                    <div class="detail">
+                                        <h4 class="card-name">Tomorrow</h4>
+                                        <p class="card-describe">Naminos Dementus A Milance - Pattern </p>
+                                        <p class="card-price">$86.00 - $99.00</p>
+                                    </div>
+                                    <!-- <div class="card-icon-heart">
+                                        <img class="styled-imgheart" src="./assets/images/svg/heart.svg">
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+
+                <div class="footer__top">
+                    <div class="col-sm-6" style="text-align: center; min-width: 200px">
+                        <div class="footer__top__text">
+                            <h4>SHOP</h4>
+                        </div>
+                        <ul class="footer__list">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/">About us</a></li>
+                            <li><a href="/">Careers</a></li>
+                            <li><a href="/">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6" >
+                        <div class="footer__top__text">
+                            <h4>NEWLETTER SIGN UP</h4>
+                        </div>
+                        <div class="footer__list">
+                            <p>Sign up to receive exclusive updates, and the latest product information</p>
+                            <div class="footer__top__email">
+                                <input class="footer-input-email" placeholder="Email Address" />
+                                <button class="footer-btn-email">Submit</button>
+                            </div>
+                            <ul class="footer-icon">
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="underlined"></div>
+                <div class="information__botton">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="col-lg-6">
+                                <div class="information__botton__text">
+                                    <p>©2023 Công ty TNHH Ngọc Trâm - Diễm My chúng mình có nhau</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="payment">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fa-brands fa-cc-visa"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa-brands fa-cc-paypal"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa-solid fa-credit-card"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fa-brands fa-cc-mastercard"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end wrapper -->
+    </div>
+    <!-- end wrapper -->
+</body>
+
+</html>
+
+<script>
+        function toggleMenu() {
+        var mobileMenu = document.getElementById("mobileMenu");
+        var body = document.body;
+
+        if (mobileMenu.style.display === "flex") {
+            mobileMenu.style.display = "none";
+            body.classList.remove("body-no-scroll");
+        } else {
+            mobileMenu.style.display = "flex";
+            body.classList.add("body-no-scroll");
+        }
+    }
+</script>
