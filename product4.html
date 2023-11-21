@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <title>Tiệm cái nồi</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- link font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ///// -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- wrapper -->
+    <div class="wrapper">
+        <!-- wrapper -->
+        <nav class="nav">
+            <div class="nav__1">
+                <marquee width="100%" behavior="scroll">
+                    <span><i class="fa-solid fa-bolt"></i></span>
+                    <span style="margin-right: 110px;">SPECIAL OFFER: ENJOY SPECIAL GIFTS FROM THE STORE</span>
+                    <span><i class="fa-solid fa-bolt"></i></span>
+                    <span style="margin-right: 110px;">SPECIAL OFFER: ENJOY SPECIAL GIFTS FROM THE STORE</span>
+                    <span><i class="fa-solid fa-bolt"></i></span>
+                    <span style="margin-right: 110px;">SPECIAL OFFER: ENJOY SPECIAL GIFTS FROM THE STORE</span>
+                </marquee>
+            </div>
+            <div class="nav__2">
+                <div class="container">
+                    <div class="styled-logo">
+                        <a href="#" class="mobile-nav-ico" onclick="toggleMenu()"></a>
+                        <img class="img-logo" src="./assets/images/logo.png" alt="logo" />
+                    </div>
+                </div>
+            </div>
+            <div class="menu-mobile" id="mobileMenu">
+                <a href="/">Home</a>
+                <a href="/about.html" class="mobile-link" data-target="about-section">About US</a>
+                <!-- <a class="mobile-link" data-target="objectives-section">Careers</a>
+                <a class="mobile-link" data-target="hours-section">Contact</a> -->
+            </div>
+            <div class="nav__3 desktop__nav">
+                <div class="container">
+                    <div class="nav__3__list">
+                        <ul class="nav__item">
+                            <li>
+                                <a class="nav__link" href="/">HOME</a>
+                            </li>
+                            <li>
+                                <a class="nav__link" href="/about.html">ABOUT US</a>
+                            </li>
+                            <!-- <li>
+                                <a class="nav__link" href="/">CAREERS</a>
+                            </li>
+                            <li>
+                                <a class="nav__link" href="/">CONTACT</a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <section class="section">
+                <div class="product">
+                    <div class="product-detail">
+                        <div class="product-title">
+                            NỒI CHIÊN KHÔNG DẦU XIAOMI
+                        </div>
+                        <div class="product-bottom">
+                            <div class="product-img">
+                                <img class="pro-img" src="./assets/images/product4.jpg" alt="product" />
+                            </div>
+                            <div class="product-detail-img">
+                                <div class="product-title-detail">
+                                    Nồi chiên không dầu Xiaomi Smart Air Fryer 4L
+                                </div>
+                                <div class="product-star">
+                                    <div class="feedback">5.0</div>
+                                    <div class="styled-star">
+                                        <i class="fa-solid fa-star" style="color: orange"></i>
+                                        <i class="fa-solid fa-star" style="color: orange"></i>
+                                        <i class="fa-solid fa-star" style="color: orange"></i>
+                                        <i class="fa-solid fa-star" style="color: orange"></i>
+                                        <i class="fa-solid fa-star" style="color: orange"></i>
+                                    </div>
+                                    <div>|</div>
+                                    <div class="text-feedback">99+ Đánh giá</div>
+                                    <div>|</div>
+                                    <div class="text-feedback">99+ Đã bán</div>
+                                </div>
+                                <div class="product-price">
+                                    2.399.000VND
+                                </div>
+                                <div class="product-quantity">
+                                    <div class="text-feedback">Số lượng</div>
+                                    <div class="quantity-input">
+                                        <button class="btn-quantity" onclick="decreaseQuantity()">-</button>
+                                        <input class="input-number" type="number" id="quantity" value="1" min="1" max="100" oninput="validateQuantity()">
+                                        <button class="btn-quantity" onclick="increaseQuantity()">+</button>
+                                    </div>
+                                </div>
+                                <div class="product-btn-group">
+                                    <button class="btn-add-cart">Thêm vào giỏ hàng</button>
+                                    <button class="btn-send">Mua ngay</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+
+                <div class="footer__top">
+                    <div class="col-sm-6" style="text-align: center; min-width: 200px">
+                        <div class="footer__top__text">
+                            <h4>SHOP</h4>
+                        </div>
+                        <ul class="footer__list">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/about.html">About us</a></li>
+                            <!-- <li><a href="/">Careers</a></li>
+                            <li><a href="/">Contact</a></li> -->
+                        </ul>
+                    </div>
+                    <div class="col-sm-6" >
+                        <div class="footer__top__text">
+                            <h4>NEWLETTER SIGN UP</h4>
+                        </div>
+                        <div class="footer__list">
+                            <p>Sign up to receive exclusive updates, and the latest product information</p>
+                            <div class="footer__top__email">
+                                <input class="footer-input-email" placeholder="Email Address" />
+                                <button class="footer-btn-email">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="underlined"></div>
+                <div class="information__botton">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="information__botton__text">
+                                <p>©2023 Công ty TNHH Ngọc Trâm - Diễm My chúng mình có nhau</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end wrapper -->
+    </div>
+    <!-- end wrapper -->
+</body>
+
+</html>
+
+<script>
+        function toggleMenu() {
+        var mobileMenu = document.getElementById("mobileMenu");
+        var body = document.body;
+
+        if (mobileMenu.style.display === "flex") {
+            mobileMenu.style.display = "none";
+            body.classList.remove("body-no-scroll");
+        } else {
+            mobileMenu.style.display = "flex";
+            body.classList.add("body-no-scroll");
+        }
+    }
+  function increaseQuantity() {
+    const quantityInput = document.getElementById('quantity');
+    let quantity = parseInt(quantityInput.value, 10);
+    if (quantity < 100) {
+      quantity++;
+    }
+    quantityInput.value = quantity;
+  }
+
+  function decreaseQuantity() {
+    const quantityInput = document.getElementById('quantity');
+    let quantity = parseInt(quantityInput.value, 10);
+    if (quantity > 1) {
+      quantity--;
+    }
+    quantityInput.value = quantity;
+  }
+
+  function validateQuantity() {
+    const quantityInput = document.getElementById('quantity');
+    let quantity = parseInt(quantityInput.value, 10);
+    quantity = isNaN(quantity) ? 1 : Math.min(Math.max(quantity, 1), 100);
+    quantityInput.value = quantity;
+  }
+</script>
