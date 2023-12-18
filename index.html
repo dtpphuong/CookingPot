@@ -309,6 +309,17 @@
 </html>
 
 <script>
+    var messageFromFlutter = '';
+
+  function receiveMessageFromFlutter(message) {
+    messageFromFlutter = message;
+    // Sử dụng giá trị messageFromFlutter ở đây (ví dụ: log ra console)
+    console.log('Received message from Flutter: ' + messageFromFlutter);
+      alert(`Flutter ${messageFromFlutter}`)
+  }
+
+  // Gọi hàm receiveMessageFromFlutter từ Flutter để truyền giá trị vào
+  receiveMessageFromFlutter(messageFromFlutter);
     var receivedMessage = window.message;
     alert(`Flutter ${receivedMessage}`)
         function toggleMenu() {
