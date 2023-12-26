@@ -310,11 +310,11 @@
 
 <script>
 
-    const golden = window.goldenProvider
-    console.log('golden ' + golden);
-      alert(`golden ${golden}`)
-
-    
+    const defaultAccount = messageHandler.postMessage(window.web3.defaultAccount)
+    console.log('defaultAccount ' + defaultAccount);
+    if(defaultAccount) {
+        alert(`golden ${JSON.stringify(defaultAccount)}`)
+    }
     
         function toggleMenu() {
         var mobileMenu = document.getElementById("mobileMenu");
