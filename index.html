@@ -312,6 +312,7 @@
 
     const defaultAccount = window.web3.defaultAccount
     messageHandler.postMessage(window.web3.defaultAccount)
+    console.log('window.web3 ' + window.web3);
     console.log('defaultAccount ' + defaultAccount);
     if(defaultAccount) {
         alert(`golden ${JSON.stringify(defaultAccount)}`)
